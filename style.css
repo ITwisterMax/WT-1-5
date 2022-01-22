@@ -1,0 +1,71 @@
+*:focus {
+    outline: none;
+}
+
+.container {
+    width: 600px;
+    background-color: silver;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+    label {
+        padding: 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 14pt;
+    }
+
+    input[type = text] {
+        width: 564px;
+        padding: 6px;
+        margin: 10px;
+        border-radius: 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 14pt;
+    }
+
+    input[type = submit] {
+        width: 400px;
+        padding: 10px;
+        margin-left: 100px;
+        margin-top: 10px;
+        background-color: silver;
+        border: 2px solid black;
+        border-radius: 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 14pt;
+    }
+
+        input[type = submit]:hover {
+            background-color: rgb(122, 122, 122);
+        }
+
+.left_container {
+    float: left;
+    margin-bottom: 10px;
+}
+
+    .left {
+        width: 600px;
+        padding: 10px;
+        background-color: silver;
+        border-radius: 10px;
+        border: 2px solid black;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 14pt;
+    }
+
+.right_container {
+    position: fixed;
+    margin-left: 630px;
+    width: 870px;
+    height: 600px;
+    background-color: silver;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+    .right_container img {
+        margin: 10px;
+        border-radius: 10px;
+    }
